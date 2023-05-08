@@ -1,5 +1,5 @@
 import tkinter as tk
-from gui.login.gui import loginWindow
+from gui.introduce.gui import introduceWindow
 from gui.main_window.main import mainWindow
 
 # Main window constructor
@@ -9,7 +9,6 @@ root.withdraw()  # WithDraw the window
 
 if __name__ == "__main__":
 
-    loginWindow()
-    # mainWindow()
+    introduceWindow()
 
     root.mainloop()
